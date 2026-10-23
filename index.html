@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-
-    <title>Post Method</title>
-
+    <title>Document</title>
+    <!-- CSS Link -->
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-    <h1>Post Method Form Submit</h1>
-
-    <div id="main">
-
-        <form action="http://localhost:3000/form" method="post">
-            <input placeholder="Enter Name" name="name">
-            <input placeholder="Enter Email" name="mail">
-            <input placeholder="Enter Address" name="address">
-            <button type="submit">Submit</button>
-        </form>
-        <!-- <button id="clr">Clear Form</button> -->
-        <img src="delete.png" id="clr">
+    <div id="main-box">
+    <div id="intro">
+        
+    <b>  Interview<br>Confirmation
+      </b>
+    </div>
+    
+    <h3>Dear Koushik Ghosh,</h3>
+    <p id="details">Thank you for scheduling your interview with<b> Travarsa Private Limited</b>.</p>
+    
+    <div id="box1">
+        <h4>📒 Interview Details</h4>
+    <p><b>Date : </b>2026 Oct 25 </p>
+    <p><b>Reporting Time: </b>04:00 PM - 4:45 PM</p>
+    <p><b>Position:</b> Full Stack Web Developer<p>
     </div>
 
 
+
+ <div id="box2">
+        <h4>📍Interview Venue Information</h4>
+    <p style="line-height:1.8;">Sharchi Ek Tower, Office EKT GR 1B,
+Ground Floor, Newtown,
+Kolkata - 700156</p>
+    </div>
+
+
+
+<div id="box3">
+        <h4>📝 Important Instructions</h4>
+<ul>
+    <li>Please arrive 15 minutes before the scheduled time</li>
+     <li>Bring Laptop for technical test</li>
+      <li>Bring your updated resume/CV</li>
+       <li>Carry a valid government ID proof</li>
+</ul>
+    </div>
+
+
+<p style="line-height:1.7; padding:0px 0px 0px 20px; color:gray; font-size:0.8rem;">We look forward to meeting you!
+<br>
+Best regards, <br>
+<b>HR Team</b><br>
+Travarsa Private Limited</p>
+
+    </div>
+    <!-- Your HTML content goes here -->
+
+    <!-- JavaScript Link -->
     <script src="script.js"></script>
 </body>
-
 </html>
